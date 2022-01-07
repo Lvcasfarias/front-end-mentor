@@ -1,0 +1,100 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display:grid;
+    justify-content: center;
+}
+.container{
+    max-width: 1200px;
+}
+
+#conteudo{
+    margin-top:3rem;
+    max-width: 400px;
+    max-height: auto;
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: 1rem;
+
+}
+
+
+h1,h2{
+    color:hsl(223, 47%, 23%);
+    font-weight:900;
+}
+
+p{
+    color:hsl(224, 23%, 55%);
+    font-size: 1rem;
+}
+
+.titulo{
+    text-align: center;
+}
+.sub{
+    text-align:center;
+    padding:0px 40px 0px 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+
+#plano{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    width: 70%;
+    height: 12%;
+    padding: 10px;
+    margin:auto;
+}
+
+#music{
+    width: 40px;
+    padding:10px
+}
+
+.descr{
+
+}
+
+.h{
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.price{
+    font-size:13px;
+    margin:0px;
+}
+
+a{
+    font-weight: 500;
+    place-self: center;
+    padding-right: 10px;
+}
+
+#payment{
+    text-align: center;
+    background-color:hsl(245, 75%, 52%);
+    margin: auto;
+    border-radius: 5px;
+    width: 70%;
+    height: 3%;
+    padding: 8px 5px 15px 8px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px 0px rgb(207, 207, 207);
+}
+
+#cancel{
+    text-align: center;
+    font-weight: 700;
+    font-size:13px;
+    
+}
